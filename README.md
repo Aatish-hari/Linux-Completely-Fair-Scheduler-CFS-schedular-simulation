@@ -10,7 +10,7 @@ Processes are defined in a JSON file (e.g., processes.json).
 -The scheduler (cfs::schedule) repeatedly picks the process with the smallest vruntime and simulates a time slice.
 -CPU-bound tasks consume CPU time directly; IO-bound tasks simulate I/O wait with this_thread::sleep.
 
-## Logging
+## 3.Logging
 -Each process execution is recorded in a log (start and end timestamps in nanoseconds).
 -Results are saved as a CSV file.
 
