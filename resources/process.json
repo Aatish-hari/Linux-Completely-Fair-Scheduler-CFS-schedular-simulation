@@ -1,0 +1,92 @@
+[
+    {
+        "pid": 1,
+        "vruntime": 6,
+        "cpu_burst_time": 120,
+        "priority": 2,
+        "processState": {"counter": 70},
+        "processNature": "CPU_BOUND",
+        "arrival_time": 0
+    },
+    {
+        "pid": 2,
+        "vruntime": 10,
+        "cpu_burst_time": 40,
+        "priority": 1,
+        "processState": {"counter": 110},
+        "processNature": "IO_BOUND",
+        "arrival_time": 1
+    },
+    {
+        "pid": 3,
+        "vruntime": 15,
+        "cpu_burst_time": 90,
+        "priority": 3,
+        "processState": {"counter": 60},
+        "processNature": "CPU_BOUND",
+        "arrival_time": 3
+    },
+    {
+        "pid": 4,
+        "vruntime": 9,
+        "cpu_burst_time": 35,
+        "priority": 1,
+        "processState": {"counter": 120},
+        "processNature": "IO_BOUND",
+        "arrival_time": 4
+    },
+    {
+        "pid": 5,
+        "vruntime": 25,
+        "cpu_burst_time": 200,
+        "priority": 4,
+        "processState": {"counter": 30},
+        "processNature": "CPU_BOUND",
+        "arrival_time": 5
+    },
+    {
+        "pid": 6,
+        "vruntime": 13,
+        "cpu_burst_time": 50,
+        "priority": 2,
+        "processState": {"counter": 80},
+        "processNature": "IO_BOUND",
+        "arrival_time": 6
+    },
+    {
+        "pid": 7,
+        "vruntime": 17,
+        "cpu_burst_time": 100,
+        "priority": 2,
+        "processState": {"counter": 55},
+        "processNature": "CPU_BOUND",
+        "arrival_time": 7
+    },
+    {
+        "pid": 8,
+        "vruntime": 11,
+        "cpu_burst_time": 25,
+        "priority": 1,
+        "processState": {"counter": 130},
+        "processNature": "IO_BOUND",
+        "arrival_time": 8
+    },
+    {
+        "pid": 9,
+        "vruntime": 20,
+        "cpu_burst_time": 180,
+        "priority": 3,
+        "processState": {"counter": 40},
+        "processNature": "CPU_BOUND",
+        "arrival_time": 10
+    },
+    {
+        "pid": 10,
+        "vruntime": 8,
+        "cpu_burst_time": 30,
+        "priority": 1,
+        "processState": {"counter": 125},
+        "processNature": "IO_BOUND",
+        "arrival_time": 12
+    }
+]
