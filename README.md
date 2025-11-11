@@ -16,3 +16,7 @@ Processes are defined in a JSON file (e.g., processes.json).
 
 ## 4.Visualization
 The Python script plotgraph.py reads the CSV and produces a Grantt chart graph showing process execution over time.
+
+# Grantt Chart Graph example:-
+
+![image alt](https://github.com/Aatish-hari/Linux-Completely-Fair-Scheduler-CFS-schedular-simulation/blob/main/resultgraph.png?raw=true)
